@@ -18,12 +18,12 @@ The node type vocabulary emitted by the Astminer. Each node type along with a di
 
 ![Image description](images/node_type_vocabulary.jpg)
 
-# Path vocabulary
+### Path vocabulary
 The path vocabulary emitted by the Astminer. Paths are stored as sequences of node type ids.
 
 ![Image description](images/path_vocabulary.jpg)
 
-# Path contexts
+### Path contexts
 Path-contexts are encoded as (start token id, path id, end token id)
 
 ![Image description](images/path_context_encoded_form.jpg)
