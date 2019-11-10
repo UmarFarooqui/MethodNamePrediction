@@ -26,6 +26,8 @@ partition: a flag indicating what partition this datum belongs to of {train, val
 
 url: the url for the code snippet including the line numbers
 
+The data is from 13590 python repos. The total samples i.e the code, func_name etc points are 457461. We will increase our dataset, if need arises, by exploring other public python repositories and datasets.
+
 References:
 
 https://github.com/github/CodeSearchNet
