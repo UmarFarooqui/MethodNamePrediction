@@ -24,6 +24,16 @@ The path vocabulary emitted by the Astminer. Paths are stored as sequences of no
 ![Image description](images/path_vocabulary.jpg)
 
 ### Path contexts
-Path-contexts are encoded as (start token id, path id, end token id)
+Path-contexts are encoded as (start token id, path id, end token id).
 
 ![Image description](images/path_context_encoded_form.jpg)
+
+So, for the following abstract syntax tree path.
+
+![Image description](images/ast_path_highlighted.jpg)
+
+We are looking for the path-context having METHOD_NAME as the start token id and 2 as the end token id.
+
+The path-context encoding is 9,30,2.
+
+30 is the path id whose value is 32 27 28 3 4, where 32 is NAME UP, 27 is stmt|compound_stmt|funcdef UP, 28 is stmt|compound_stmt|funcdef DOWN, 3 is parameters DOWN and 4 is typedargslist|tfpdef|NAME DOWN.
