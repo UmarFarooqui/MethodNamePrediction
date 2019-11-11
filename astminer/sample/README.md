@@ -32,7 +32,7 @@ So, for the following abstract syntax tree path.
 
 ![Image description](images/ast_path_highlighted.jpg)
 
-We are looking for the path-context having METHOD_NAME as the start token id and 2 as the end token id.
+We are looking for the path-context having METHOD_NAME as the start token id and x as the end token id.
 
 The path-context encoding is 9,30,2.
 
