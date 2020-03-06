@@ -1,4 +1,4 @@
-# Predicting method names using code semantics
+# Predicting method names using code semantics (On hold)
 The problem that we want to solve is to predict an appropriate method name based on the semantics of a code snippet. Particularly, we will be focusing on simple methods written in Python. This problem solves an essential part of the software code review process where the reviewers look for good naming of methods when reviewing code.
 
 The data that we would be using to solve this problem is CodeSearchNet corpus [1], which is programmatically obtained by scraping open-source GitHub repositories [2]. The data is stored in jsonlines format and we will be using the method name and the code snippet attributes of the JSON values. The authors claim in [1] that the scraped data is noisy. If we find that the dataset is taking more time to make it usable, we will resort to the dataset used by the [3] authors [4].
